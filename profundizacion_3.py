@@ -27,6 +27,37 @@ IMPORTANTE: Para ordenar las temperatuas debe utilizar condicionales compuestos 
 no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
 contenido. Recomendamos pensar bien este problema de lógica con un lápiz y papel.
 '''
+print('ingrese la primer temperatura')
+tempreratura_1 = int(input)
+print('infgrese la temperatura 2')
+tempreratura_2 =int(input)
+print('ingrese la tercer temperatura')
+tempreratura_3 = int(input)
+
+if (tempreratura_1 > tempreratura_2 ) and (tempreratura_1 > tempreratura_3 ):
+    print ('la tempreatura mas alta es:', temperatura_1)
+elif (tempreratura_1 < tempreratura_2 ) and (tempreratura_1 < tempreratura_3 ):
+    print('la temperatura mas baja es:', tempreratura_1)
+else:
+    print('la temperatura intermedia es:', temperatura_1)
+
+if (tempreratura_2 > tempreratura_1 ) and (tempreratura_2 > tempreratura_3 ):
+    print ('la tempreatura mas alta es:', temperatura_2)
+elif (tempreratura_2 < tempreratura_1 ) and (tempreratura_2 < tempreratura_3 ):
+    print('la temperatura mas baja es:', tempreratura_2)
+else:
+    print('la temperatura intermedia es:', temperatura_2)
+
+if (tempreratura_3 > tempreratura_2 ) and (tempreratura_3 > tempreratura_1 ):
+    print ('la tempreatura mas alta es:', temperatura_3)
+elif (tempreratura_3 < tempreratura_2 ) and (tempreratura_3 < tempreratura_1 ):
+    print('la temperatura mas baja es:', tempreratura_3)
+else:
+    print('la temperatura intermedia es:', temperatura_3)
+
+promedio = tempreratura_1 +tempreratura_2 + tempreratura_3 % 3 
+
+print('el promedio de las tres temperaturas es:', promedio)
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio

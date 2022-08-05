@@ -19,6 +19,20 @@ Realice un programa que solicite por consola 2 números
 Calcule la diferencia entre ellos e informe por pantalla
 si el resultado es positivo, negativo o cero.
 '''
+print ('ingrese un numero')
+numero_1 = int(input)
+print('ingrese otro numero')
+numero_2 = int(input)
+
+resto = numero_1 - numero_2
+
+if (resto > 0):
+    print('diferenciapositivo')
+elif (resto < 0):
+    print('diferencia negayiva')
+else: 
+    print('el reesto es 0')
+
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio

@@ -20,6 +20,28 @@ enteros, y luego en cada caso informe si el número es par
 o impar.
 Para cada caso imprimir el resultado en pantalla.
 '''
+print('ingrese el primer numero')
+numero_1 = int(input)
+priunt('ingrese el segundo numero')
+numero_2 = int(input)
+print('ingrese el tertcer numero')
+numero_3 = int(input)
+
+if numero_1 % 2 == 0: 
+    print(numero_1, ' es par')
+else:
+    print(numero_1, 'es impar')
+
+if numero_2 % 2 == 0: 
+    print(numero_2, ' es par')
+else:
+    print(numero_2, 'es impar')
+    
+if numero_2 % 2 == 0: 
+    print(numero_2, ' es par')
+else:
+    print(numero_2, 'es impar')
+
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
